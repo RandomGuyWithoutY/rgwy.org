@@ -1,0 +1,26 @@
+h1,
+h2 {
+	text-align: center;
+}
+
+table {
+	border-collapse: collapse;
+	border: 2px solid black;
+	margin: auto;
+}
+
+th,
+td {
+	border: 1px solid black;
+	padding: 1.5ex;
+}
+
+th {
+	color: #f410bf;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+td a:any-link {
+	color: #0fb2c7ff;
+	font-variant: small-caps;
+}
