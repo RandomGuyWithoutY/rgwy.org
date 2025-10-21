@@ -24,3 +24,36 @@ td a:any-link {
 	color: #0fb2c7ff;
 	font-variant: small-caps;
 }
+
+.image-shadow {
+	filter: drop-shadow(5px 5px 5px black);
+}
+
+.invert-x {
+	transform: scaleX(-1);
+}
+
+.invert-y {
+	transform: scaleY(-1);
+}
+
+.img-row {
+	display: flex;
+	justify-content: space-between;
+}
+
+.center-text {
+	text-align: center;
+}
+
+.spacer {
+	margin: 3em;
+}
+
+blockquote p::before {
+	content: "\201C";
+}
+
+blockquote p::after {
+	content: "\201D";
+}
