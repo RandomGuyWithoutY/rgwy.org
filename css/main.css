@@ -67,6 +67,11 @@ a:any-link {
 	font-style: italic;
 }
 
+.text-icon {
+	height: 1em;
+	vertical-align: middle;
+}
+
 blockquote p::before {
 	content: "\201C";
 }
