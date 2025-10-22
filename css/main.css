@@ -24,7 +24,7 @@ th {
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-td a:any-link {
+a:any-link {
 	color: #0fb2c7ff;
 	font-variant: small-caps;
 }
@@ -39,6 +39,11 @@ td a:any-link {
 
 .invert-y {
 	transform: scaleY(-1);
+}
+
+.invert-color {
+	color: #fff;
+	background-color: #000;
 }
 
 .img-row {
@@ -56,6 +61,10 @@ td a:any-link {
 
 .half-height {
 	font-size: .65em;
+}
+
+.italic {
+	font-style: italic;
 }
 
 blockquote p::before {
