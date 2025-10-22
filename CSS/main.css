@@ -1,3 +1,7 @@
+body {
+	font-family: serif;
+}
+
 h1,
 h2 {
 	text-align: center;
@@ -48,6 +52,10 @@ td a:any-link {
 
 .spacer {
 	margin: 3em;
+}
+
+.half-height {
+	font-size: .65em;
 }
 
 blockquote p::before {
