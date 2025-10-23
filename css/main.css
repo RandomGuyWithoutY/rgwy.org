@@ -72,6 +72,23 @@ a:any-link {
 	vertical-align: middle;
 }
 
+.quote-row {
+	display: flex;
+	justify-content: left;
+	flex-wrap: wrap;
+}
+
+.quote {
+	border: 2px solid #000;
+	border-radius: .5em;
+	margin: 1em;
+	padding: 1em;
+}
+
+blockquote {
+	margin: 1.5em;
+}
+
 blockquote p::before {
 	content: "\201C";
 }
